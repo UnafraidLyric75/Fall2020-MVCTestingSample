@@ -11,20 +11,17 @@ namespace MVCTestingSample.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-    
-        /// <summary>
-        /// TESTING ONLY
-        /// </summary>
+        //private readonly ILogger<HomeController> _logger;
+
         public HomeController()
         {
 
         }
 
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+        //public HomeController(ILogger<HomeController> logger)
+        //{
+        //    _logger = logger;
+        //}
 
         public IActionResult Index()
         {
